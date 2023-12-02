@@ -99,6 +99,8 @@ h1, h2 {
     display: block;
     font-size: 16px;
     margin: 0 auto;
+    width: 30px;
+    height: 15px;
 }
 
 #call-button {
