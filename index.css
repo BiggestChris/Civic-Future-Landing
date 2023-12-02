@@ -77,6 +77,14 @@ h1, h2 {
     display: flex;
 }
 
+@media (max-width: 768px) {
+    .flex-para {
+        flex-direction: column; /* Stack items for smaller screens */
+        text-align: center; /* Center text within the container */
+    }
+}
+
+
 .pic-container {
     width: 40%;
     min-width: 100px;
