@@ -176,6 +176,8 @@ main, .inverse {
         text-align: center; /* Center text within the container */
         padding-left: 0; /* Reset left padding */
         padding-right: 0; /* Reset right padding */
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .flex-text {
