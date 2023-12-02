@@ -154,7 +154,6 @@ a:visited {
     padding-left: 10px;
 }
 
-
 main, .inverse {
     padding: 30px;
 }
@@ -183,5 +182,10 @@ main, .inverse {
 
     .pic-container {
         width: 100%;
+    }
+
+    .flex-para > div {
+        flex: 0 1 calc(50% - 0px); 
+        margin: 5px;
     }
 }
