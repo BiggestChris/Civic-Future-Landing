@@ -156,6 +156,36 @@ a {
     color: var(--dark);
 }
 
+#first-picture-box{
+    width: 100%;
+}
+
 main, .inverse {
     padding: 30px;
+}
+
+@media (max-width: 768px) {
+    .flex-para {
+        flex-direction: column; /* Stack items for smaller screens */
+        text-align: center; /* Center text within the container */
+        padding-left: 0; /* Reset left padding */
+        padding-right: 0; /* Reset right padding */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .flex-text {
+        width: 100%;
+        padding: 0 10px; /* Add padding for better spacing on smaller screens */
+        text-align: left;
+    }
+
+    .pic-container {
+        width: 100%;
+    }
+
+    .flex-para > div {
+        flex: 0 1 100%; /* Full width for each item */
+        margin: 5px;
+    }
 }
