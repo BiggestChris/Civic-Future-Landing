@@ -183,6 +183,7 @@ main, .inverse {
     .flex-text {
         width: 100%;
         padding: 0 10px; /* Add padding for better spacing on smaller screens */
+        text-align: left;
     }
 
     .pic-container {
