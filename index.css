@@ -1,0 +1,171 @@
+:root {
+  --tomato: #FF7048;
+  --blue: #1D202F;
+  --white: #FFFFFF;
+  --dark: #0C0B0D
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+h1, h2 {
+    color: var(--tomato);
+}
+
+#page{
+    margin: 0;
+}
+
+.calendly-inline-widget {
+    width: 400px;
+    height: 1000px;
+    margin: 20px auto;
+    border: 1px black solid;
+}
+
+
+.picture-box {
+    display: flex;
+    justify-content: space-evenly;
+    height: 220px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#logo {
+    width: 100px;
+    display: block;
+}
+
+#guide-video {
+    display: block;
+    margin: 10px auto;
+    // min-width: 320px;
+    width: 100%;
+    height: 250px;
+    // height: 315;
+}
+
+.apply-button {
+    display: block;
+    margin: 10px auto;
+    background-color: var(--tomato);
+    border: 0;
+    border-radius: 5px;
+    width: 250px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.inverse-button {
+    background-color: var(--white);
+    color: var(--tomato);
+}
+
+.action-line {
+    text-align: center;
+}
+
+.flex-para {
+    display: flex;
+}
+
+.pic-container {
+    width: 40%;
+    min-width: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 600px;
+}
+
+.side-pic {
+    width: 100%;
+    max-width: 500px;
+}
+
+.secondary-button {
+    background-color: var(--blue);
+    color: var(--white);
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+#call-button {
+    width: 100px;
+    height: 25px;
+}
+
+#call-button {
+    width: 100px;
+    height: 25px;
+}
+
+#programme-button {
+    width: 150px;
+    height: 100px;
+    color: var(--white);    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.flex-para > div {
+    flex: 0 1 calc(50% - 10px); 
+    margin: 5px;
+}
+
+.flex-text {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.inverse {
+    background-color: var(--tomato);
+    color: black;
+    padding: 5px;
+}
+
+.inverse > h1 {
+    color: white;
+}
+
+#quote-box > h2 {
+    color: var(--dark);
+    padding-left: 10px;
+}
+
+
+main, .inverse {
+    padding: 30px;
+}
+
+.bottom-box{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#first-picture-box {
+    margin: 10px 0;
+}
