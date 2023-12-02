@@ -178,6 +178,7 @@ main, .inverse {
 
     .flex-text {
         width: 100%;
+        padding: 0 10px; /* Add padding for better spacing on smaller screens */
     }
 
     .pic-container {
@@ -185,7 +186,7 @@ main, .inverse {
     }
 
     .flex-para > div {
-        flex: 0 1 calc(50% - 0px); 
+        flex: 0 1 100%; /* Full width for each item */
         margin: 5px;
     }
 }
